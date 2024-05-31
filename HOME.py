@@ -158,7 +158,7 @@ class xcrack():
             fs = name.split(' ')[0]
             uaua=[]
             b=random.choice(['8.0.0','2.3.6','3.1'])
-            ua=f'[FBAN/Orca- Android;FBAV/'+str(random.randint(22,88))+'.0.0.'+str(random.randint(2222,8888))+';FBBV/'+str(random.randint(2222222,8888888))+';[FBAN/FB4A;FBAV/261.0.0.52.126;FBBV/202681565;FBDM/{density=2.0,width=720,height=1352};FBLC/en_GB;FBRV/203912779;FBCR/ho.;FBMF/oppo;FBBD/oppo;FBPN/com.facebook.katana;FBDV/CPH2139;FBSV/{b};FBOP/19;FBCA/armeabi-v7a:armeabi;]'
+            ua=f'[FBAN/Orca- Android;FBAV/'+str(random.randint(22,88))+'.0.0.'+str(random.randint(2222,8888))+';FBBV/'+str(random.randint(2222222,8888888))+';[FBAN/FB4A;FBAV/261.0.0.52.126;FBBV/202681565;FBDM/{density=2.0,width=720,height=1352};FBLC/en_GB;FBRV/203912779;FBCR/ho.;FBMF/sony;FBBD/sony;FBPN/com.facebook.katana;FBDV/D5303;FBSV/{b};FBOP/19;FBCA/armeabi-v7a:armeabi;]'
             try:
                 ls = name.split(' ')[1]
             except:
@@ -277,10 +277,9 @@ class xcrack():
             banner()
             print(70*'-')
             print(f"[+] DATE  :  {tgl} {bln} {thn}")
-            print(70*'-')
             print('\033[1;97m[+] TOTAL IDS = \033[92;1m '+str(len(self.id)))
-            print("\033[1;97m[+] CLONING\x1b[0m")
-            print("\033[1;97m[+] PROCESSING\x1b[0m")
+            print("\033[1;97m[+] VERSION :0.1\x1b[0m")
+            print("\033[1;97m[+] CLONING......\x1b[0m")
             print(70*'-')
             with CHI(max_workers=30) as world:
                 for zsb in self.id:
