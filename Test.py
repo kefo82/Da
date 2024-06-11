@@ -158,7 +158,7 @@ class xcrack():
             fs = name.split(' ')[0]
             uaua=[]
             b=random.choice(['8.0.0','2.3.6','3.1'])
-            ua=f'[FBAN/Orca- Android;FBAV/'+str(random.randint(22,88))+'.0.0.'+str(random.randint(2222,8888))+';FBBV/'+str(random.randint(2222222,8888888))+';[FBAN/FB4A;FBAV/261.0.0.52.126;FBBV/202681565;FBDM/{density=2.0,width=720,height=1352};FBLC/en_GB;FBRV/203912779;FBCR/ho.;FBMF/xiaomi;FBBD/xiaomi;FBPN/com.facebook.katana;FBDV/M1908C3IC;FBSV/{b};FBOP/19;FBCA/armeabi-v7a:armeabi;]'
+            ua=f'[FBAN/Orca- Android;FBAV/'+str(random.randint(22,88))+'.0.0.'+str(random.randint(2222,8888))+';FBBV/'+str(random.randint(2222222,8888888))+';[FBAN/FB4A;FBAV/261.0.0.52.126;FBBV/202681565;FBDM/{density=2.0,width=720,height=1352};FBLC/en_GB;FBRV/203912779;FBCR/ho.;FBMF/xiaomi;FBBD/xiaomi;FBPN/com.facebook.katana;FBDV/2201122G;FBSV/{b};FBOP/19;FBCA/armeabi-v7a:armeabi;]'
             try:
                 ls = name.split(' ')[1]
             except:
